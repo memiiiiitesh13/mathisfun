@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>Maths Is Fun</title>
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><strong>Math is Fun</strong></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Community</a>
+          </li>
+
+          
+          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">I Can HelpYou More ! Click Here</button>
+
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 id="offcanvasRightLabel">            Basics To Remember 
+              </h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  Please Select Your Choice
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="output.html">Trigonometric Identities</a></li>
+                  <li><a class="dropdown-item" href="output.html">Area Of Shapes</a></li>
+                  <li><a class="dropdown-item" href="output.html">Differentiation Integration Formulas</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          </li>
+
+
+        </ul>
+        <div class="btn">
+          <button type="submit" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+          <button type="submit" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</button>
+        </div>
+        
+
+
+      </div>
+    </div>
+  </nav>
+<script>
+  function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
+
+
+<!-- LOgin Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="loginModalLabel">Login to Math Is Fun</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Password</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="Submit" class="btn btn-success">Log in</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Signup Modal -->
+<div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="signupModalLabel">Sign Up To Math Is Fun</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Password</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="abc123#">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Confirm Password</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Sign Up</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</head>
+
+<style>
+
+  
+  #card{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .container{
+    background-color:wheat;
+    background-size: cover;
+  }
+  
+</style>
+
+
+<body>
+  <a href="main.html"></a>
+  <a href="output.html"></a>
+
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="b.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block bg-dark">
+          <h5>Mathematics is the most beautiful and most powerful creation of the human spirit</h5>
+          
+          
+        </div>
+      </div>
+     
+      <div class="carousel-item">
+        <img src="a.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block bg-dark" >
+          <h5>Pure mathematics is, in its way, the poetry of logical ideas.</h5>
+          
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="c.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block bg-dark">
+          <h5>What is mathematics? It is only a systematic effort of solving puzzles posed by nature</h5>
+          
+          
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card" style="width: 36rem;">
+          <img src="simp.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Simple Maths</h5>
+            <p class="card-text">Basic math skills will help you to solve general math problems in your life</p>
+            <a href="#basic" class="btn btn-primary">Click Here to Learn</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 36rem;">
+          <img src="integration.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Calculus</h5>
+            <p class="card-text"> Calculus is not restricted only tomathematics and analysis, it's used pretty much everywhere</p>
+            <a href="main.html" class="btn btn-primary">Click Here to Learn</a>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="col">
+        <div class="card" style="width: 36rem;">
+          <img src="trigos.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Trigonometry</h5>
+            <p class="card-text">The branch of mathematics concerned with specific functions of angles and their applications</p>
+            <a href="main.html" class="btn btn-primary">Click Here to Learn</a>
+          </div>
+        </div>
+      </div>  
+      <div class="col">
+        <div class="card" style="width: 36rem;">
+          <img src="area.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Area Of Shapes</h5>
+            <p class="card-text">The area of a shape is the “space enclosed within the perimeter or the boundary” of the given shape</p>
+            <a href="main.html" class="btn btn-primary">Click Here to Learn</a>
+          </div>
+        </div>
+      </div>  
+    </div>
+<br>
+<br>
+<br>
+<br>
+
+
+
+  
+
+  
+
+
+<div id="basic">
+  <p> <h1>Lets Start With BASIC MATHS</h1>
+    <br>
+    <br>
+     <h3>1)Discrete random variable</h3>
+    <br>
+    Before giving a definition for discrete random variable, let us define random variable.
+    <br>
+    <br>
+    A random variable is a variable that has exactly 1 numerical value and this value is determined by the outcome of a random experiment.
+    <br>
+    <br>
+    For example, the number of vehicles someone owns is a random variable. To find out, you will need to randomly pick people and ask. Suppose, you ask 200 people and 40 people say that they don't own a car, 100 say they own 1, and 60 say they own 2.
+    <br>
+    <br>
+    Let x be the number of vehicles owned by someone selected randomly. Then, based on our result, x could be 0, 1, or 2.
+    <br>
+    <br>
+    Since the value of x depends on the outcome of a random experiment or asking people randomly, x is called random variable or chance variable
+    <br>
+    <br>
+    <img style="height: 600px; width: 1000px; margin-left: 130px;" src="prob.jpeg">
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>2)What is probability?</h3>
+
+    Probability is a numerical measure of the likelihood that a specific event will occur.
+    <br>
+    <br>
+
+For a simple event E1, the likelihood of E1 happening is denoted by P(E1)
+<br>
+    <br>
+
+For a compound event A, the likelihood of A happening is denoted by P(A)
+<br>
+    <br>
+
+<h5>There are 3 ways to approach probability as shown below.</h5>
+<br>
+    <br>
+
+a)Classical probability
+<br>
+    <br>
+b)Relative frequency of probability
+<br>
+    <br>
+c)Subjective probability.
+<br>
+    <br>
+
+<h4>Classical probability </h4>
+<br>
+    <br>
+
+Classical probability is used for equally likely outcomes.
+<br>
+<br>
+
+Equally likely outcomes have the same probability of occurrence. For example, most people know that if you toss a coin, it is 50/50 chance.
+<br>
+    <br>
+
+All outcomes are equally likely since neither head nor tail has a better chance of occurring.
+<br>
+    <br>
+
+<h4>Relative frequency of probability</h4>
+<br>
+    <br>
+Let A be an event that is observed f times and n the number of times the experiment is repeated.
+<br>
+    <br>
+
+P(A) = f/n
+<br>
+    <br>
+    <br>
+    <br>
+
+For the coin, you may want to toss the coin a great number of times and see how many times it yields tail. Say you throw it 200 times and it yields tail 60 times.
+<br>
+    <br>
+
+Probability that the coin will yield tail = 80/200= 0.4 = 40%
+<br>
+<br>
+<h4>Subjective probability</h4>
+<br>
+<br>
+Some experiments neither have equally likely outcomes nor can be repeated to generate data.
+<br>
+<br>
+
+Some examples of subjective probability includes
+<br>
+<br>
+
+The probability that the US men's soccer team will win the next world cup.
+<br>
+<br>
+The probability that the minimum wage will increase to 15 dollars in the US.
+<br>
+<br>
+<h4>Alright Guys , Lets Understand Simple <strong>STATISTICS</strong></h4>
+<br>
+<br>
+<img src="stats.jpeg" alt="">
+<br>
+<br>
+Stats is a branch of mathematics dealing with the collection, analysis, interpretation, and presentation of masses of numerical data
+<br>
+<br>
+Mean , Median , Mode are the most important terms of STATS.
+<br>
+<br>
+<h5>Find the mean, median, mode, and range for the following list of values:</h5>
+<br>
+13, 18, 13, 14, 13, 16, 14, 21, 13
+<br>
+<br>
+
+The mean is the usual average, so I'll add and then divide:
+
+(13 + 18 + 13 + 14 + 13 + 16 + 14 + 21 + 13) ÷ 9 = 15
+<br>
+<br>
+
+Note that the mean, in this case, isn't a value from the original list. This is a common result. You should not assume that your mean will be one of your original numbers.
+<br>
+<br>
+
+The median is the middle value, so first I'll have to rewrite the list in numerical order:
+<br>
+
+13, 13, 13, 13, 14, 14, 16, 18, 21
+<br>
+<br>
+
+There are nine numbers in the list, so the middle one will be the (9 + 1) ÷ 2 = 10 ÷ 2 = 5th number:
+<br>
+
+13, 13, 13, 13, 14, 14, 16, 18, 21
+<br>
+<br>
+
+So the median is 14.
+<br>
+<br>
+
+The mode is the number that is repeated more often than any other, so 13 is the mode.
+<br>
+<br>
+
+The largest value in the list is 21, and the smallest is 13, so the range is 21 – 13 = 8.
+<br>
+<br>
+
+mean: 15
+<br>
+<br>
+median: 14
+<br>
+<br>
+mode: 13
+<br>
+<br>
+range: 8
+<br>
+<img src="mmm.png" alt="" style="margin-left: 300px;">
+
+</p>
+</div>
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
